@@ -17,6 +17,7 @@ export default function RootLayout() {
           options={{  title:''}}
         />
          <Stack.Screen name="(screens)/SurahScreen" options={{  title:''}}  />
+         <Stack.Screen name="(screens)/displayProucts" options={{  title:''}}  />
       </Stack>
     </SettingsProvider>
   );
