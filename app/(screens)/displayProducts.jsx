@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FlatList, Text, View, ActivityIndicator } from 'react-native';
-import { supabase } from './lib/supabase';
+import { supabase } from '../lib/supabase';
 
 export default function displayProducts() {
   const [products, setProducts] = useState([]);

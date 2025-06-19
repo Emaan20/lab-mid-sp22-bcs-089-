@@ -30,7 +30,10 @@ export default function Index() {
 
       <TouchableOpacity style={styles.button} onPress={() => router.push("../(screens)/displayProducts")}>
         <Text style={styles.buttonText}>Go to Display Products</Text>
-        
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => router.push("../(screens)/BottomPullToRefreshScreen")}>
+        <Text style={styles.buttonText}>Pull to Refresh</Text>
       </TouchableOpacity>
 
 

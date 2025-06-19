@@ -18,6 +18,7 @@ export default function RootLayout() {
         />
          <Stack.Screen name="(screens)/SurahScreen" options={{  title:''}}  />
          <Stack.Screen name="(screens)/displayProucts" options={{  title:''}}  />
+         <Stack.Screen name="(screens)/BottomPullToRefreshScreen" options={{ headerShown: false }}  />
       </Stack>
     </SettingsProvider>
   );
