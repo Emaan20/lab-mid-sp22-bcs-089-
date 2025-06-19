@@ -23,7 +23,7 @@ const dummyChats = [
 //   { id: '5', sender: 'Tazeen', message: 'Sounds perfect! See you there 👍', timestamp: '10:38 AM', isOwn: false },
 ];
 
-export default function ChatScreen() {
+export default function BottomPullToRefreshScreen() {
   const [messages, setMessages] = useState(dummyChats);
   const [input, setInput] = useState('');
   const pan = useRef(new Animated.Value(0)).current;
